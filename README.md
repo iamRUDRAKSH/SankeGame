@@ -24,4 +24,28 @@ This project is a classic implementation of the Snake game using Pygame. In this
 ## Installation
 1. Install Python from the official website.
 2. Install Pygame by running the following command: pip install pygame
-3. 
+
+## How to run
+1. Ensure all the required images (welcome.jpg and gameover.png) and sound files (crash.mp3, bite.mp3, eat.mp3) are in the same directory as the script.
+2. Run the script: python main.py
+
+## File Structure
+<ul>
+  <li>snake_game.py: Main script containing the game logic.</li>
+  <li>welcome.jpg: Image for the home screen.</li>
+  <li>gameover.png: Image for the game over screen.</li>
+  <li>crash.mp3: Sound played when the snake collides with the wall.</li>
+  <li>bite.mp3: Sound played when the snake collides with itself.</li>
+  <li>eat.mp3: Sound played when the snake eats food.</li>
+  <li>highscore.txt: File to store the high score.</li>
+</ul>
+
+## Future Improvements
+<ul>
+  <li>Add more levels with increasing difficulty.</li>
+  <li>Implement a more sophisticated collision detection system.</li>
+  <li>Add more sound effects and background music.</li>
+  <li>Create a graphical interface for setting game preferences.</li>
+</ul>
+
+Feel free to customize and enhance the game as per your preferences. Enjoy coding and have fun playing the Snake game!
